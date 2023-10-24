@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>LastName | About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- These lines are produced by webpack-->
+  <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+
+<body id = "about-page">
+  
+  <!--HTML-->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+    <a class="navbar-brand montserrat" href="#">FIRSTNAME LASTNAME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav abs-center-x">
+        <li><a class="nav-item nav-link" href="/index.html">VFX</a></li>
+        <li><a class="nav-item nav-link" href="/conceptpage.html">Concept Art</a></li>
+        <li><a class="nav-item nav-link active" href="/aboutpage.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+      <section class="aboutr">
+          <div class="imgcontainer">
+            <div class="portrait">
+              <picture>
+                <source type = "image/webp" srcset="images/SELFPORT.webp">
+                <source type = "image/jpg" srcset="images/SELFPORT.jpg">
+                <img src="images/SELFPORT.jpg" alt="self portrait">
+              </picture>
+                
+              </div>
+          </div>
+          <div class="aboutblurb">
+              <h1 class="montserrat">About Me</h1>
+              <p>About description goes here.</p>
+              <p>Second paragraph for about.</p>
+          </div>
+      </section>
+
+      <section class="contact montserrat">
+        <div class="email"><a href="mailto:">=gmail.com</a></div>
+        <div class="links"> 
+            <a href="https://www.artstation.com"><img src="images/artstation.jpg" alt="artstation"></a>
+            <a href="https://www.linkedin.com"><img src="images/indeed.jpg" alt="indeed"></a>  
+        </div>
+        <div class="resume"><a href="Resume.pdf">Résumé</a></div>
+      </section>
+  </main>
+
+
+  <footer>
+    <a href="mailto:"><img src="images/mail.jpg" alt="email"></a>
+      
+    <a href="https://www.artstation.com"><img src="images/artstation.jpg" alt="artstation"></a>
+      
+    <a href="https://www.linkedin.com"><img src="images/indeed.jpg" alt="indeed"></a>  
+  </footer>
+  
+  
+  <script src="javascripts/main.js"></script>
+
+</body>
+</html>
